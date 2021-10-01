@@ -21,7 +21,7 @@ Step 2. Add the dependency
   
   step 3 use this code in Activity
   
-        ViewToImageView c2i = new ViewToImageView(MainActivity.this,layout,"name");
+        ViewToImageView c2i = new ViewToImageView(MainActivity.this,layout,"imageName");
 	
         button.setOnClickListener(new View.OnClickListener() {
             @Override
