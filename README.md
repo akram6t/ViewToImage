@@ -21,10 +21,11 @@ Step 2. Add the dependency
   
   step 3 use this code in Activity
   
-         ViewToImageView toImageView = new ViewToImageView(MainActivity.this,layout,"name");
-        layout.setOnClickListener(new View.OnClickListener() {
+        ViewToImageView c2i = new ViewToImageView(MainActivity.this,layout,"name");
+	
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                img.setImageURI(toImageView.getImageuri());
+                img.setImageURI(c2i.getImageuri());
             }
         });
